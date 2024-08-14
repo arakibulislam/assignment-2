@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -5,7 +7,8 @@
     font-style: normal;
     color: rgb(255, 255, 255);
 }
-.share-width{
+
+.share-width {
     width: 80%;
     margin: 0 auto;
 }
@@ -13,14 +16,15 @@
 body {
     background-color: black;
 }
-header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    
+
+header {
+    background: linear-gradient(rgba(119, 119, 119, 0.087), rgb(30, 30, 30), rgb(30, 30, 30), rgba(119, 119, 119, 0));
+
 }
 
 /* navbar section style */
 nav {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,11 +37,13 @@ nav {
     font-weight: 800;
     font-style: italic;
 }
-.nav-menu{
+
+.nav-menu {
     box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
 }
+
 .nav-menu a:nth-child(-n+3) {
     text-decoration: none;
     margin-right: 47px;
@@ -51,7 +57,8 @@ border-radius: 39px;
     padding: 8px 20px;
     border: none;
 }
-.m-other{
+
+.m-other {
     border-radius: 46px;
     font-size: 18px;
     font-weight: 600;
@@ -59,13 +66,148 @@ border-radius: 39px;
     padding: 8px 20px;
     border: none;
 }
-.m-home:hover{
+
+.m-home:hover {
     cursor: pointer;
     background: none;
     color: rgb(230, 83, 60);
 }
-.m-other:hover{
+
+.m-other:hover {
     cursor: pointer;
     background: rgb(230, 83, 60);
     padding: 8px 20px;
+}
+
+/* banner section style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 54px;
+}
+
+.banner-text {
+    font-size: 78px;
+    font-weight: 900;
+    width: 520px;
+    margin-bottom: 28px;
+}
+
+.banner-text-1 {
+    font-family: "Dancing Script", cursive;
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.button-1 {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    border: 1px solid rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+.button-2 {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: none;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button-1:hover {
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: none;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button-2:hover {
+    cursor: pointer;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    border: 1px solid rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.video-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 20px 23px;
+    position: absolute;
+    bottom: 63px;
+    left: -105px;
+}
+
+.video-icon {
+    border: 1px solid rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.video-text h1 {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 0 8px 0;
+}
+
+.video-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    margin: 0;
+}
+
+.video-text-1 {
+    width: 193px;
+height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 373px;
+    left: 200px;
+}
+
+.video-text-1 h1 {
+    margin: 16px 23px 5px 23px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.video-text-1 p {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0 23px 16px 23px;
 }
