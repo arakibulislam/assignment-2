@@ -255,7 +255,7 @@ nav {
 .habits-group-img h3 {
     font-size: 18px;
     font-weight: 600;
-    margin:26px 0 6px 0px;
+    margin: 26px 0 6px 0px;
 }
 
 .habits-group-img p {
@@ -264,4 +264,41 @@ nav {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     margin: 6px 0px;
+}
+
+/* card section style */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px 32px 30px 56px;
+}
+
+.card-text {
+    width: 443px;
+}
+
+.card-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+.card-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px;
+    line-height: 24px;
+}
+
+.card-image {
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+    object-fit: none;
+    object-position: 68% 30%;
 }
