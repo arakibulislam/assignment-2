@@ -810,6 +810,9 @@ footer>p {
         width:80%;
         margin: 0 auto;
     }
+    .team-card-text h3{
+        font-size: 1.5em;
+    }
 /* membership section */
     .membership-description h1{
         font-size: 2em;
